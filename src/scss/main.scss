@@ -135,3 +135,13 @@ video {
 .pencil .product-cart:hover {
   background: #2c5192;
 }
+
+// scissors
+.scissors:hover {
+  background: #2c5192;
+  color: #fff;
+}
+
+.scissors {
+  transition: background 0.4s 0.2s ease-in-out, color 0.4s 0.2s ease-in-out;
+}
