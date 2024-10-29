@@ -104,3 +104,17 @@ video {
 // ---------------------------------------------
 // Votre code ici :
 // ---------------------------------------------
+
+// markers
+.marker .product-cart {
+  opacity: 0%;
+  transition: opacity 0.4s 0.2s ease-in-out, background 0.4s 0.2s ease-in-out;
+}
+
+.marker:hover .product-cart {
+  opacity: 100%;
+}
+
+.marker .product-cart:hover {
+  background: #2c5192;
+}
