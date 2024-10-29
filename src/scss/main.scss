@@ -145,3 +145,16 @@ video {
 .scissors {
   transition: background 0.4s 0.2s ease-in-out, color 0.4s 0.2s ease-in-out;
 }
+
+// sketchbook
+.sketchbook:hover .product-image img {
+  transform: scale(1.5);
+}
+
+.sketchbook .product-image img {
+  transition: transform 0.4s 0.2s ease-in-out;
+}
+
+.sketchbook .product-image {
+  overflow: hidden;
+}
