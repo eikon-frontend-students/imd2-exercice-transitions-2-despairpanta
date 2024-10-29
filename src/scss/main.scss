@@ -158,3 +158,17 @@ video {
 .sketchbook .product-image {
   overflow: hidden;
 }
+
+// glue
+.glue .product-image img {
+  filter: blur(2px);
+  transition: filter 0.4s 0.2s ease-in-out;
+}
+
+.glue .product-image {
+  overflow: hidden;
+}
+
+.glue:hover .product-image img {
+  filter: blur(0);
+}
