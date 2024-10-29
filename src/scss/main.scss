@@ -118,3 +118,20 @@ video {
 .marker .product-cart:hover {
   background: #2c5192;
 }
+
+// pencil
+.pencil .product-cart {
+  opacity: 0%;
+  transform: translateY(-80px);
+  transition: transform 0.4s 0.2s ease-in-out, opacity 0.4s 0.2s ease-in-out,
+    background 0.4s 0.2s ease-in-out;
+}
+
+.pencil:hover .product-cart {
+  opacity: 100%;
+  transform: translateY(0px);
+}
+
+.pencil .product-cart:hover {
+  background: #2c5192;
+}
